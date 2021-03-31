@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <PackageId>Flunt.Extensions.AspNet</PackageId>
+    <Version>1.0.03</Version>
+    <icon>https://baltaio.blob.core.windows.net/static/images/icons/flunt-icon.png</icon>
+    <License>MIT</License>
+    <Authors>André Baltieri</Authors>
+    <Company>balta.io</Company>
+    <PackageDescription>Flunt Extensions for ASP.NET</PackageDescription>
+    <Description>Flunt Extensions for ASP.NET</Description>
+    <RepositoryUrl>https://github.com/andrebaltieri/Flunt.Extensions.AspNet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/andrebaltieri/Flunt.Extensions.AspNet</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>AspNet;Domain;DDD;Notification;Validation;Flunt</PackageTags>
+    <Title>Flunt Extensions for ASP.NET</Title>
+    <Summary>Simply add your Flunt notifications to ModelState</Summary>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
